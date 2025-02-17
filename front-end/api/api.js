@@ -1,6 +1,6 @@
 // Fetch ou Axios
 import axios from "axios";
-import "dotenv/config";
+import "dotenv/config.js";
 
 const { NODE_ENV } = process.env;
 const URL = NODE_ENV === "development" ? "http://localhost:3001/api" : "/api";
